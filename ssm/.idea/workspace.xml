@@ -33,51 +33,108 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="carrent@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="carrent@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="carrent@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="carrent: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/EandV.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="2628">
+              <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/RechargeAmout.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/QueryVipController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmoutService.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/RechargeAmoutServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/VEditController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/VEdit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/VEditServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+              <folding>
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/QueryVipController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="186">
+              <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
+              <folding>
+                <element signature="e#2139#2140#0" expanded="true" />
+                <element signature="e#2163#2164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/VEditService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,6 +162,7 @@
       <find>java.sql.Date</find>
       <find>img</find>
       <find>long</find>
+      <find>float</find>
     </findStrings>
     <replaceStrings>
       <replace>int</replace>
@@ -113,23 +171,18 @@
       <replace>Integer</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/PinglunService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/AdministratorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/AdministratorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/AdministratorDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/SDdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/SettlementServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/VehicleImgDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/SettlementDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/SettlementService.java" />
@@ -138,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/HYData.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/controller/AdministratorServiceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/Expensecalendar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/Pinglun.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/Member.java" />
@@ -163,13 +215,22 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/VehicleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/controller/OnclientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/controller/VehicleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/RechargeAmout.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmoutService.java" />
+        <option value="$PROJECT_DIR$/profiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/RechargeAmout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/kgc/testService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/utils/JuheDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/VEditService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/controller/VEditController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/dao/VEdit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/VEditServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -183,38 +244,51 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\软件\maven\apache-maven-3.3.9\repository" />
-        <option name="userSettingsFile" value="D:\软件\maven\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="E:\server\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="E:/server/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\server\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <option name="alwaysShowArtifactId" value="true" />
+    <option name="showVersions" value="true" />
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="374" />
-    <option name="y" value="85" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-56" />
+    <option name="y" value="84" />
     <option name="width" value="1152" />
     <option name="height" value="558" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +320,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="kgc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,29 +337,89 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="kgc" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kgc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kgc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kgc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kgc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="azure&#10;mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/kgc/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.kgc.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\ssm\src\test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\ssm\src\main\java\cn\kgc\controller" />
@@ -285,8 +428,8 @@
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\ssm\src\main\java\cn\kgc\dao" />
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\ssm\src\main\java\cn\kgc\domain" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\ssm\src\test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.kgc.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,25 +444,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.20">
-    <configuration name="testService.testS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kgc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.kgc" />
-      <option name="MAIN_CLASS_NAME" value="cn.kgc.testService" />
-      <option name="METHOD_NAME" value="testS" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="ssm:war exploded">
           <settings>
@@ -391,15 +518,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.testService.testS" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.testService.testS" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -430,13 +548,14 @@
       <workItem from="1563442861616" duration="6236000" />
       <workItem from="1563451932465" duration="933000" />
       <workItem from="1563495394132" duration="22103000" />
+      <workItem from="1563591187468" duration="349000" />
+      <workItem from="1563591933226" duration="533000" />
+      <workItem from="1563592574088" duration="714000" />
+      <workItem from="1563593384366" duration="8637000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testService_testS - 2019.07.14 at 15h 41m 55s.xml">
-      <configuration name="testService.testS" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testService_testS - 2019.07.14 at 15h 42m 14s.xml">
       <configuration name="testService.testS" configurationId="JUnit" />
     </history-entry>
@@ -458,23 +577,34 @@
     <history-entry file="testService_testS - 2019.07.14 at 15h 50m 11s.xml">
       <configuration name="testService.testS" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testService_testS - 2019.07.20 at 13h 52m 01s.xml">
+      <configuration name="testService.testS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testService_testS - 2019.07.20 at 13h 54m 33s.xml">
+      <configuration name="testService.testS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testService_testS - 2019.07.20 at 13h 55m 13s.xml">
+      <configuration name="testService.testS" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114858000" />
+    <option name="totallyTimeSpent" value="125091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-56" y="84" width="1152" height="558" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5008" side_tool="true" weight="0.24962293" />
       <window_info id="Web" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4992" visible="true" weight="0.21406959" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.3289689" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4992" visible="true" weight="0.3434066" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23895253" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.95090014" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5938931" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -484,16 +614,20 @@
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.049099836" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.41243863" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.34860885" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32977098" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.30786687" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3295626" />
+      <window_info anchor="right" id="Database" order="3" weight="0.30775076" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32902735" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Event Log" order="6" side_tool="true" weight="0.73071104" />
+      <window_info anchor="right" id="Event Log" order="6" side_tool="true" weight="0.66565347" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.24659607" />
@@ -529,293 +663,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2002#2003#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-            <element signature="e#2273#2274#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2435#2436#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2639#2640#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Expensecalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/HYData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/PinglunDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Pinglun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -930,13 +787,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/CarrentService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/CarrentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/CarrentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -944,40 +794,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/PinglunController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/FindOrdersDao.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Members.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Mbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/bers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Members.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Mbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/bers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/Accountes.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1078,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="175" column="39" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/OnclientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1095,58 +910,506 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmout.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        <state relative-caret-position="1512">
+          <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/AdministratorServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/EandV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.xml" />
+    <entry file="file://$PROJECT_DIR$/log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/CarrentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.kgc:ssm:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.kgc:ssm:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="779.0">cn.kgc:ssm:1.0-SNAPSHOT</node>
+            <node x="86.5" y="0.0">org.aspectj:aspectjweaver:jar:1.6.8</node>
+            <node x="95.0" y="41.0">org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="76.0" y="82.0">org.springframework:spring-instrument:jar:4.3.8.RELEASE</node>
+            <node x="85.5" y="123.0">org.springframework:spring-context:jar:5.0.2.RELEASE</node>
+            <node x="94.5" y="164.0">org.springframework:spring-web:jar:5.0.2.RELEASE</node>
+            <node x="83.0" y="205.0">org.springframework:spring-webmvc:jar:5.0.2.RELEASE</node>
+            <node x="96.0" y="246.0">org.springframework:spring-test:jar:5.0.2.RELEASE</node>
+            <node x="101.5" y="287.0">org.springframework:spring-tx:jar:5.0.2.RELEASE</node>
+            <node x="94.0" y="328.0">org.springframework:spring-jdbc:jar:5.0.2.RELEASE</node>
+            <node x="115.5" y="369.0">junit:junit:jar:4.12</node>
+            <node x="65.0" y="410.0">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="97.0" y="451.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="107.5" y="492.0">javax.servlet.jsp:jsp-api:jar:2.0</node>
+            <node x="119.5" y="533.0">jstl:jstl:jar:1.2</node>
+            <node x="113.0" y="574.0">log4j:log4j:jar:1.2.12</node>
+            <node x="104.5" y="615.0">org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="92.0" y="656.0">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="105.0" y="697.0">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="84.0" y="738.0">org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="113.5" y="779.0">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="67.5" y="820.0">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="91.0" y="861.0">commons-io:commons-io:jar:2.6</node>
+            <node x="69.0" y="902.0">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
+            <node x="90.0" y="943.0">com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
+            <node x="77.0" y="984.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="69.0" y="1025.0">io.springfox:springfox-swagger2:jar:2.9.2</node>
+            <node x="65.0" y="1066.0">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
+            <node x="99.5" y="1107.0">com.thetransactioncompany:cors-filter:jar:2.6</node>
+            <node x="90.0" y="1148.0">net.sf.json-lib:json-lib:jar:jdk8:2.4</node>
+            <node x="105.0" y="1189.0">com.alibaba:fastjson:jar:1.1.15</node>
+            <node x="112.5" y="1230.0">error:error:jar:unknown</node>
+            <node x="106.5" y="1271.0">error:spring-:jar:unknown</node>
+            <node x="109.0" y="1312.0">error:spring:jar:unknown</node>
+            <node x="96.0" y="1353.0">error:spring-con:jar:unknown</node>
+            <node x="112.5" y="1394.0">org.:error:jar:unknown</node>
+            <node x="112.5" y="1435.0">org:error:jar:unknown</node>
+            <node x="112.5" y="1476.0">org.s:error:jar:unknown</node>
+            <node x="112.5" y="1517.0">org.sr:error:jar:unknown</node>
+            <node x="112.5" y="1558.0">org.spr:error:jar:unknown</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.4.5">
+              <point x="22.5" y="-1.0769230769230944" />
+              <point x="65.0" y="707.5" />
+              <point x="-33.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.3.0">
+              <point x="22.5" y="-0.5384615384615472" />
+              <point x="65.0" y="748.5" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="error:spring-con:jar:unknown">
+              <point x="22.5" y="7.538461538461547" />
+              <point x="65.0" y="1363.5" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7">
+              <point x="22.5" y="1.6153846153846416" />
+              <point x="-69.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.:error:jar:unknown">
+              <point x="22.5" y="8.076923076923094" />
+              <point x="65.0" y="1404.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="error:error:jar:unknown">
+              <point x="22.5" y="5.923076923076906" />
+              <point x="65.0" y="1240.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+              <point x="22.5" y="-4.846153846153811" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="error:spring-:jar:unknown">
+              <point x="22.5" y="6.461538461538453" />
+              <point x="65.0" y="1281.5" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org:error:jar:unknown">
+              <point x="22.5" y="8.615384615384642" />
+              <point x="65.0" y="1445.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
+              <point x="22.5" y="0.5384615384615472" />
+              <point x="-71.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.12">
+              <point x="22.5" y="-2.692307692307736" />
+              <point x="65.0" y="584.5" />
+              <point x="-25.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.6.6">
+              <point x="22.5" y="-1.6153846153846416" />
+              <point x="65.0" y="666.5" />
+              <point x="-46.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="22.5" y="2.153846153846189" />
+              <point x="65.0" y="953.5" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-8.615384615384642" />
+              <point x="65.0" y="133.5" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-6.461538461538453" />
+              <point x="65.0" y="297.5" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.spr:error:jar:unknown">
+              <point x="22.5" y="10.230769230769283" />
+              <point x="65.0" y="1568.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.s:error:jar:unknown">
+              <point x="22.5" y="9.153846153846189" />
+              <point x="65.0" y="1486.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.6.8">
+              <point x="22.5" y="-10.230769230769283" />
+              <point x="65.0" y="10.5" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.3.8.RELEASE">
+              <point x="22.5" y="-9.153846153846189" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-7.0" />
+              <point x="65.0" y="256.5" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-9.692307692307736" />
+              <point x="65.0" y="51.5" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+              <point x="22.5" y="-3.2307692307692832" />
+              <point x="65.0" y="543.5" />
+              <point x="-19.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="22.5" y="-5.384615384615358" />
+              <point x="65.0" y="379.5" />
+              <point x="-23.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
+              <point x="22.5" y="3.2307692307692832" />
+              <point x="-69.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.1.15">
+              <point x="22.5" y="5.384615384615358" />
+              <point x="65.0" y="1199.5" />
+              <point x="-33.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.6.6">
+              <point x="22.5" y="-2.153846153846189" />
+              <point x="65.0" y="625.5" />
+              <point x="-34.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="net.sf.json-lib:json-lib:jar:jdk8:2.4">
+              <point x="22.5" y="4.846153846153811" />
+              <point x="65.0" y="1158.5" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="error:spring:jar:unknown">
+              <point x="22.5" y="7.0" />
+              <point x="65.0" y="1322.5" />
+              <point x="-29.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
+              <point x="22.5" y="3.7692307692307168" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="com.thetransactioncompany:cors-filter:jar:2.6">
+              <point x="22.5" y="4.307692307692264" />
+              <point x="65.0" y="1117.5" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-5.923076923076906" />
+              <point x="65.0" y="338.5" />
+              <point x="-44.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.0">
+              <point x="22.5" y="-3.7692307692307168" />
+              <point x="65.0" y="502.5" />
+              <point x="-31.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="22.5" y="-4.307692307692264" />
+              <point x="65.0" y="461.5" />
+              <point x="-41.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="c3p0:c3p0:jar:0.9.1.2">
+              <point x="22.5" y="-0.0" />
+              <point x="-25.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.6">
+              <point x="22.5" y="1.0769230769230944" />
+              <point x="65.0" y="871.5" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="22.5" y="2.692307692307736" />
+              <point x="-61.5" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-8.076923076923094" />
+              <point x="65.0" y="174.5" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.sr:error:jar:unknown">
+              <point x="22.5" y="9.692307692307736" />
+              <point x="65.0" y="1527.5" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="cn.kgc:ssm:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:5.0.2.RELEASE">
+              <point x="22.5" y="-7.538461538461547" />
+              <point x="65.0" y="215.5" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="-131.0" y="482.0" />
+          <SelectedNodes>
+            <node>javax.servlet:servlet-api:jar:2.5</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/VehicleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2252">
-          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+        <state relative-caret-position="512">
+          <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmout.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/EandV.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/PinglunController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="98">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmoutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/RechargeAmout.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/RechargeAmoutService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/VEditServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/RechargeAmoutServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/QueryVipController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="230">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
+          <folding>
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/kgc/testService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2628">
+          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/utils/JuheDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/VEditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/dao/VEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/service/impl/VEditServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kgc/controller/VEditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

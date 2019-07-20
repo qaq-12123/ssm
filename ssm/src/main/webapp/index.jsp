@@ -53,9 +53,10 @@
     <input type="text" name="license">
     <input type="submit">
 </form>
-<form action="/order/findAll" method="post">
-    <input type="text" name="phone">
-    <input type="text" name="id">
+ceshi
+<form action="/edit/editbalance" method="post">
+    <input type="text" name="balance">
+    <input type="text" name="mname">
     <input type="submit">
 </form>
 <form action="/vehicle/findByImg" method="post">
@@ -68,19 +69,7 @@
     <input type="text" name="statue">
     <input type="submit">
 </form>
-<button onclick="phone()">验证码</button>
     <script >
-        function phone() {
-            $.ajax({
-                url:"http://localhost:8080/phone/phones",
-                type:"post",
-                data: {"phone":"17550062722"},
-                dataType: "Json",
-                success: function (data) {
-                    alert(data)
-                }
-            })
-        }
         function ddd() {
             $.ajax({
                 url: "/vehicle/findByImg",

@@ -25,7 +25,6 @@ public interface RechargeAmout {
     @Select("select mname,phone,email,card from member")
     public List<Member> InFormation();
     /**
-     *
      *     账户信息
      * @return      integral    pjmoney
      * 备用sql where integral=#{integral},pjmoney=#{pjmoney}

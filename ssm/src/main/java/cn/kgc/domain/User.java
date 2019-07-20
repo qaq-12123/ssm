@@ -15,7 +15,7 @@ public class User {
   private Integer integral;
   private String email;
   private Integer pjmoney;
-  private double balance;
+  private float balance;
   private Integer rechargeId;
   private Integer ExpensecalendarId;
   private Integer rechargerecordId;
@@ -130,11 +130,11 @@ public class User {
   }
 
 
-  public double getBalance() {
+  public float getBalance() {
     return balance;
   }
 
-  public void setBalance(double balance) {
+  public void setBalance(float balance) {
     this.balance = balance;
   }
 

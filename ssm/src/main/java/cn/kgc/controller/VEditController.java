@@ -30,13 +30,12 @@ public class VEditController {
     @ResponseBody
     @RequestMapping("/editbalance")
     @CrossOrigin
-    public List updatemoney( float balance, String mname){
-        List list= new ArrayList();
-        if(balance!=0&&mname!=null){
-             list.add(vEditService.balanceedit(balance,mname));
-             return list;
+    public boolean updatemoney(Float balance, String username){
+
+        if(balance!=null&&username!=null){
+            return  vEditService.balanceedit(balance,username);
         }
-        return  null;
+        return false;
     }
     @ResponseBody
     @RequestMapping("/editmember")

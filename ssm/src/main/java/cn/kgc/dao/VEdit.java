@@ -30,14 +30,14 @@ public interface VEdit {
      * @return
      */
     @Select("select * member where mname=#{mmname} and phone=#{phone}")
-    public int select(String mname, String phone);
+    public int findOneMember(String mname, String phone);
     /**
      *
-     * @param user   会员充值操作
+     * @param //   会员充值操作
      * @return
      */
     @Update("update user set balance=#{balance} where username=#{username}")
-    public int balanceedit(User user);
+    public Integer balanceedit(Float balabce, String username);
 
     /**
      *
@@ -56,5 +56,8 @@ public interface VEdit {
 
     @Select("select * from user")
     List<User> findUser();
+
+    @Select("select * from user where username=#{username}")
+    public User findAlluser(String username );
 
 }

@@ -24,17 +24,18 @@ public class VEditServiceImpl implements VEditService {
         }
         return  false;
     }
+
+    /**
+     *
+     * @return  充值
+     */
     @Override
-    public List balanceedit(float balance, String username) {
-        List<User> arrayList = new ArrayList<>();
-        if(balance!=0&&username!=""){
-            User user = new User();
-            user.setBalance(balance);
-            user.setUsername(username);
-            arrayList.add(user);
-            return arrayList;
+    public boolean balanceedit(Float balance, String username) {
+        System.out.println(balance);
+        if(vEdit.balanceedit(balance,username)!=0){
+            return true;
         }
-        return  null;
+        return false;
     }
     @Override
     public boolean insertV(Member member) {

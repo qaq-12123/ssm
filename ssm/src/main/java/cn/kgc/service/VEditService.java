@@ -9,7 +9,7 @@ public interface VEditService {
 
     public boolean editphone(String phone);
 
-    public List balanceedit(float balance, String username);
+    public boolean balanceedit(Float balance, String username);
 
     public boolean insertV(Member member);
 
