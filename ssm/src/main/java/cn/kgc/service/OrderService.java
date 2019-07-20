@@ -1,5 +1,6 @@
 package cn.kgc.service;
 
+import cn.kgc.domain.HYData;
 import cn.kgc.domain.Order;
 
 import cn.kgc.domain.SDData;
@@ -39,4 +40,14 @@ public interface OrderService {
      * @deprecated 根据订单号删除订单
      * */
     public boolean delByOrderNo(String orderNo);
+
+
+    /**
+     * @return 查询会员信息
+     * */
+    public List<HYData> findHYAll();
+
+
+    //统计订单总数
+    public int findCount();
 }

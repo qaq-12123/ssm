@@ -17,10 +17,10 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd ">
     </context:component-scan>
 
     <!--配置视图解析器对象-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/pages/"></property>
-        <property name="suffix" value=".jsp"></property>
-    </bean>
+<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">-->
+<!--        <property name="prefix" value="/WEB-INF/pages/"></property>-->
+<!--        <property name="suffix" value=".jsp"></property>-->
+<!--    </bean>-->
 
     <!--过滤静态资源-->
     <mvc:resources location="/js/" mapping="/js/**" />

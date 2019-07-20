@@ -1,6 +1,10 @@
 package cn.kgc.domain;
 
 
+
+/**
+ * 受理页面信息*/
+
 public class SDData {
 
 

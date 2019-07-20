@@ -1,9 +1,7 @@
 package cn.kgc.service.impl;
 
 import cn.kgc.dao.VehicleDao;
-import cn.kgc.dao.VehicleImgDao;
 import cn.kgc.domain.Vehicle;
-import cn.kgc.domain.Vehicleimg;
 import cn.kgc.service.VehicleService;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +14,6 @@ public class VehicleServiceImpl implements VehicleService {
 
     @Autowired
     private VehicleDao vehicleDao;
-    @Autowired
-    private VehicleImgDao vehicleImgDao;
 
     //根据车牌号查询车辆信息
     @Override
@@ -33,14 +29,57 @@ public class VehicleServiceImpl implements VehicleService {
         return vehicleDao.findVehicle();
     }
 
-    /**
-     * @param id 根据订单id
-     */
-//    @Override
-//    public Vehicle findVehicle(int id) {
-//        Vehicle vehicle=vehicleDao.findVehicle(id);
-//        vehicle.setList(vehicleImgDao.findById(id));
-//        return vehicle;
-//    }
 
+    @Override
+    public List findAllVehicle() {
+        return vehicleDao.findAllVehicle();
+    }
+
+    @Override
+    public List<Vehicle> findAll150() {
+        return vehicleDao.findAll150();
+    }
+
+    @Override
+    public List<Vehicle> findAll400() {
+        return vehicleDao.findAll400();
+    }
+
+    @Override
+    public List<Vehicle> findAll500() {
+        return vehicleDao.findAll500();
+    }
+
+    @Override
+    public List<Vehicle> findAll600() {
+        return vehicleDao.findAll600();
+    }
+
+    @Override
+    public List<Vehicle> findAllshu() {
+        return vehicleDao.findAllshu();
+    }
+
+    @Override
+    public List<Vehicle> findAllsuv() {
+        return vehicleDao.findAllsuv();
+    }
+
+    @Override
+    public List<Vehicle> findAllzhong() {
+        return vehicleDao.findAllzhong();
+    }
+
+    @Override
+    public List<Vehicle> findAlljing() {
+        return vehicleDao.findAlljing();
+    }
+
+
+
+
+    @Override
+    public int findCount() {
+        return vehicleDao.findCount();
+    }
 }

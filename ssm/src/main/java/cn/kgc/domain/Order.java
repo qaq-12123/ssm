@@ -3,27 +3,75 @@ package cn.kgc.domain;
 import java.util.Date;
 public class Order {
 
-  private int id;                 //id
-  private String orderNo;         //订单号
-  private String orderStatue;     //订单状态
-  private Date collectionTime;    //取车时间
-  private int rentTime;           //租车时间
-  private String collectionCity;  //取车城市
-  private String colleationStore; //取车门店
-  private String returnStore;     //还车门店
-  private String returnCity;      //还车城市
-  private Date returnTime;        //还车时间
-  private double earnest;         //定金
-  private Date target;            // 预定时间
-  private int vid;                //车辆ID
-  private int aid;                //账户Id
+  private Integer id;
+  private String orderNo;
+  private String orderStatue;
+  private Date collectionTime;
+  private Integer rentTime;
+  private String collectionCity;
+  private String colleationStore;
+  private String returnStore;
+  private String returnCity;
+  private Date returnTime;
+  private double earnest;
+  private Date target;
+  private Date createtime;
+  private Date orderstimes;
+  private Integer indentmoney;
+  private Integer vid;
+  private Integer uid;
+  private String rentStyle;
+  private String week1;
+  private String week2;
+  private String startday;
+  private String endday;
+  private String img;
 
+  public String getWeek1() {
+    return week1;
+  }
 
-  public int getId() {
+  public void setWeek1(String week1) {
+    this.week1 = week1;
+  }
+
+  public String getWeek2() {
+    return week2;
+  }
+
+  public void setWeek2(String week2) {
+    this.week2 = week2;
+  }
+
+  public String getStartday() {
+    return startday;
+  }
+
+  public void setStartday(String startday) {
+    this.startday = startday;
+  }
+
+  public String getEndday() {
+    return endday;
+  }
+
+  public void setEndday(String endday) {
+    this.endday = endday;
+  }
+
+  public String getImg() {
+    return img;
+  }
+
+  public void setImg(String img) {
+    this.img = img;
+  }
+
+  public Integer getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -55,11 +103,11 @@ public class Order {
   }
 
 
-  public int getRentTime() {
+  public Integer getRentTime() {
     return rentTime;
   }
 
-  public void setRentTime(int rentTime) {
+  public void setRentTime(Integer rentTime) {
     this.rentTime = rentTime;
   }
 
@@ -127,21 +175,57 @@ public class Order {
   }
 
 
-  public int getVid() {
+  public Date getCreatetime() {
+    return createtime;
+  }
+
+  public void setCreatetime(Date createtime) {
+    this.createtime = createtime;
+  }
+
+
+  public Date getOrderstimes() {
+    return orderstimes;
+  }
+
+  public void setOrderstimes(Date orderstimes) {
+    this.orderstimes = orderstimes;
+  }
+
+
+  public Integer getIndentmoney() {
+    return indentmoney;
+  }
+
+  public void setIndentmoney(Integer indentmoney) {
+    this.indentmoney = indentmoney;
+  }
+
+
+  public Integer getVid() {
     return vid;
   }
 
-  public void setVid(int vid) {
+  public void setVid(Integer vid) {
     this.vid = vid;
   }
 
 
-  public int getAid() {
-    return aid;
+  public Integer getUid() {
+    return uid;
   }
 
-  public void setAid(int aid) {
-    this.aid = aid;
+  public void setUid(Integer uid) {
+    this.uid = uid;
+  }
+
+
+  public String getRentStyle() {
+    return rentStyle;
+  }
+
+  public void setRentStyle(String rentStyle) {
+    this.rentStyle = rentStyle;
   }
 
 }

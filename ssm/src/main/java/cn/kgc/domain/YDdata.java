@@ -1,6 +1,7 @@
 package cn.kgc.domain;
 
-
+/**
+ * 预定页面信息*/
 public class YDdata {
     private String id;
     private String userName;

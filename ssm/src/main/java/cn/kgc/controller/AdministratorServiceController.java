@@ -21,6 +21,10 @@ public class AdministratorServiceController {
     @Autowired
     private AdministratorService as;
 
+
+    /**
+     * @return 返回所有会员信息
+     * */
     @RequestMapping("/findAdmin")
     @ResponseBody
     public List<Administrator> findAdmin( ){

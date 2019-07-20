@@ -2,14 +2,17 @@ package cn.kgc.controller;
 
 import cn.kgc.domain.*;
 import cn.kgc.service.*;
+import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.*;
 
 @Controller
@@ -19,39 +22,18 @@ public class OrderController {
 
     @Autowired
     private OrderService orderService;
-    @Autowired
-    private SettlementService settlementService;
-    @Autowired
-    private UserService userService;
-    @Autowired
-    private AccountService accountService;
+
+
     @Autowired
     private VehicleService vehicleService;
+    private HttpServletRequest request;
+    private HttpServletResponse response;
 
 
-    @RequestMapping("/settlement")
-    @ResponseBody
-    public Object[] settlement(String orderNo){
-        Object[] str={orderService.findByOrderNo(orderNo),settlementService.findByOrderId(orderNo)};
-        return  str;
-    }
-    @RequestMapping("/findAll")
-    @ResponseBody
-    public  List findAll(){
-
-       List list= orderService.findAllOrder();
-        int a=list.size();
-        list.add(userService.findAllUid());
-        list.add(vehicleService.findVehicle());
-       for (int i=0;i<a;i++){
-
-           String str="checked"+(i+1)+": false";
-           list.add(str);
-       }
-
-
-        return list;
-    }
+    /**
+     *
+     * @return 所有订单的用户，车辆信息
+     * */
     @RequestMapping("/findAllData")
     @ResponseBody
     public List<YDdata> findAllData(){
@@ -63,7 +45,10 @@ public class OrderController {
         }
         return list;
     }
-
+    /**
+     * @param orderNo 订单号
+     * @return 根据订单号查找订单
+     * */
     @RequestMapping("/findOrderNo")
     @ResponseBody
     public SDData findByOrderNo(String orderNo){
@@ -73,7 +58,10 @@ public class OrderController {
       return new SDData();
     }
 
-
+    /**
+     * @param orderNo 订单号
+     * @return 根据订单号删除订单
+     * */
     @RequestMapping("/deleteByOrderNo")
     @ResponseBody
     public boolean deleteByOrderNo(String orderNo){
@@ -84,11 +72,33 @@ public class OrderController {
     }
 
 
-
+    /**
+     * 查询会员信息
+     * */
     @RequestMapping("/findHYAll")
     @ResponseBody
     public  List<HYData> findHYAll(){
-        return settlementService.findHYAll();
+        return orderService.findHYAll();
+    }
+
+
+    @RequestMapping("/getorder")
+    public void getCounts(HttpServletRequest request, HttpServletResponse response) {
+        this.request = request;
+        this.response = response;
+        int count = orderService.findCount();
+        Map<String, Integer> counts = new HashMap<>();
+        counts.put("vipcount", count);
+        String str = JSON.toJSONString(counts, true);
+        PrintWriter writer = null;
+        try {
+            writer = response.getWriter();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        writer.write(str);
+        writer.flush();
+        writer.close();
     }
 
 

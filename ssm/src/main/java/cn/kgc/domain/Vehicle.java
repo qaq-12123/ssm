@@ -10,6 +10,10 @@ public class Vehicle {
   private Integer seat;
   private Integer rentMoney;
   private String quality;
+  private String license;
+  private String img;
+  private String owner;
+  private String safetyPeril;
 
 
   public Integer getId() {
@@ -72,6 +76,42 @@ public class Vehicle {
 
   public void setQuality(String quality) {
     this.quality = quality;
+  }
+
+
+  public String getLicense() {
+    return license;
+  }
+
+  public void setLicense(String license) {
+    this.license = license;
+  }
+
+
+  public String getImg() {
+    return img;
+  }
+
+  public void setImg(String img) {
+    this.img = img;
+  }
+
+
+  public String getOwner() {
+    return owner;
+  }
+
+  public void setOwner(String owner) {
+    this.owner = owner;
+  }
+
+
+  public String getSafetyPeril() {
+    return safetyPeril;
+  }
+
+  public void setSafetyPeril(String safetyPeril) {
+    this.safetyPeril = safetyPeril;
   }
 
 }

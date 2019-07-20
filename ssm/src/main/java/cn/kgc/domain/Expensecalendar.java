@@ -1,33 +1,33 @@
-package com.sample;
+package cn.kgc.domain;
 
-
+import  java.util.Date;
 public class Expensecalendar {
 
-  private long id;
-  private long pjmoney;
+  private Integer id;
+  private Integer pjmoney;
   private String cModel;
-  private java.sql.Timestamp gTime;
-  private java.sql.Timestamp bTime;
+  private Date gTime;
+  private Date bTime;
   private String rental;
   private String done;
   private String operate;
-  private long vid;
+  private Integer vid;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getPjmoney() {
+  public Integer getPjmoney() {
     return pjmoney;
   }
 
-  public void setPjmoney(long pjmoney) {
+  public void setPjmoney(Integer pjmoney) {
     this.pjmoney = pjmoney;
   }
 
@@ -41,20 +41,20 @@ public class Expensecalendar {
   }
 
 
-  public java.sql.Timestamp getGTime() {
+  public Date getGTime() {
     return gTime;
   }
 
-  public void setGTime(java.sql.Timestamp gTime) {
+  public void setGTime(Date gTime) {
     this.gTime = gTime;
   }
 
 
-  public java.sql.Timestamp getBTime() {
+  public Date getBTime() {
     return bTime;
   }
 
-  public void setBTime(java.sql.Timestamp bTime) {
+  public void setBTime(Date bTime) {
     this.bTime = bTime;
   }
 
@@ -86,11 +86,11 @@ public class Expensecalendar {
   }
 
 
-  public long getVid() {
+  public Integer getVid() {
     return vid;
   }
 
-  public void setVid(long vid) {
+  public void setVid(Integer vid) {
     this.vid = vid;
   }
 

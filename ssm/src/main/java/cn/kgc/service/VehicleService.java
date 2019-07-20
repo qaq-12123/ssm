@@ -21,4 +21,31 @@ public interface VehicleService {
      *
      * */
     public List<Vehicle> findVehicle();
+
+
+    /********z张志文*********/
+    public List findAllVehicle();
+    public List<Vehicle> findAll150();
+
+    public List<Vehicle> findAll400();
+
+    public List<Vehicle> findAll500();
+
+    public List<Vehicle> findAll600();
+
+    public List<Vehicle> findAllshu();
+
+    public List<Vehicle> findAllsuv();
+
+    public List<Vehicle> findAllzhong();
+
+    public List<Vehicle> findAlljing();
+
+    //查询所有账户信息
+    public int findCount();
+
+
+
+
+
 }

@@ -1,6 +1,7 @@
 package cn.kgc.service.impl;
 
 import cn.kgc.dao.OrderDao;
+import cn.kgc.domain.HYData;
 import cn.kgc.domain.Order;
 import cn.kgc.domain.SDData;
 import cn.kgc.domain.YDdata;
@@ -61,4 +62,19 @@ public class OrderServiceImpl implements OrderService {
         }
         return true;
     }
+
+    /**
+     * @return 查询会员信息
+     */
+    @Override
+    public List<HYData> findHYAll() {
+        return orderDao.findHYAll();
+    }
+
+
+    @Override
+    public int findCount() {
+        return orderDao.findCount();
+    }
+
 }

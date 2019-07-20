@@ -5,6 +5,7 @@ public class User {
 
   private Integer id;
   private String username;
+  private String ugrender;
   private String password;
   private String identity;
   private String phone;
@@ -12,11 +13,13 @@ public class User {
   private String contact;
   private String emergency;
   private Integer integral;
+  private String email;
   private Integer pjmoney;
   private double balance;
   private Integer rechargeId;
   private Integer ExpensecalendarId;
   private Integer rechargerecordId;
+  private String certificate;
 
 
   public Integer getId() {
@@ -34,6 +37,15 @@ public class User {
 
   public void setUsername(String username) {
     this.username = username;
+  }
+
+
+  public String getUgrender() {
+    return ugrender;
+  }
+
+  public void setUgrender(String ugrender) {
+    this.ugrender = ugrender;
   }
 
 
@@ -100,6 +112,15 @@ public class User {
   }
 
 
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+
   public Integer getPjmoney() {
     return pjmoney;
   }
@@ -142,6 +163,15 @@ public class User {
 
   public void setRechargerecordId(Integer rechargerecordId) {
     this.rechargerecordId = rechargerecordId;
+  }
+
+
+  public String getCertificate() {
+    return certificate;
+  }
+
+  public void setCertificate(String certificate) {
+    this.certificate = certificate;
   }
 
 }

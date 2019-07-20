@@ -22,8 +22,26 @@ public class UserServiceImpl implements UserService {
         return userDao.findAll();
     }
 
+    //  登录
     @Override
-    public List<User> findAllUid() {
-        return userDao.findAllUid();
+    public boolean loginUser(User user) {
+        User user1 = userDao.loginUser(user);
+        if(user1 != null){
+            return true;
+        }
+        return false;
+    }
+
+
+    // 注册
+    @Override
+    public boolean saveUser(User user) {
+        User user1 = userDao.queryPhone(user.getPhone());
+        if(user1 != null){
+            return false;
+        }else {
+            boolean boo=userDao.saveUser(user)>0?true:false;
+            return boo;
+        }
     }
 }

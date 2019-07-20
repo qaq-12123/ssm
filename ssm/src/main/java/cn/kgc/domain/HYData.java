@@ -1,5 +1,7 @@
 package cn.kgc.domain;
 
+/**
+ * 会员页面信息*/
 public class HYData {
     private  String g_time;
     private String  c_model;
