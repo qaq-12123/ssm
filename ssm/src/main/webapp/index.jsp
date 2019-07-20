@@ -68,7 +68,19 @@
     <input type="text" name="statue">
     <input type="submit">
 </form>
+<button onclick="phone()">验证码</button>
     <script >
+        function phone() {
+            $.ajax({
+                url:"http://localhost:8080/phone/phones",
+                type:"post",
+                data: {"phone":"17550062722"},
+                dataType: "Json",
+                success: function (data) {
+                    alert(data)
+                }
+            })
+        }
         function ddd() {
             $.ajax({
                 url: "/vehicle/findByImg",
