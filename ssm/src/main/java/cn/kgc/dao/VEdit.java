@@ -1,6 +1,8 @@
 package cn.kgc.dao;
 
+import cn.kgc.domain.FBphone;
 import cn.kgc.domain.Member;
+import cn.kgc.domain.Phone;
 import cn.kgc.domain.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
@@ -39,6 +41,9 @@ public interface VEdit {
     @Update("update user set balance=#{balance} where username=#{username}")
     public Integer balanceedit(Float balabce, String username);
 
+    @Update("update user set pjmoney=#{pjmoney} where phone=#{phone}")
+    public Integer update(User user);
+
     /**
      *
      * @param member  插入用户操作
@@ -59,5 +64,22 @@ public interface VEdit {
 
     @Select("select * from user where username=#{username}")
     public User findAlluser(String username );
+
+    /**
+     * 根据手机号查询用户信息
+     * @param phone phone 手机号
+     * */
+    @Select("select username,email,integral,pjmoney,identity from `user` where phone=#{phone}")
+    public User findByphone(String phone);
+
+    @Select("select operation, returntime,rentStyle,orderStatue,quality from `order` left join vehicle on vid=vehicle.id where uid=(select id from user where phone=#{phone})")
+    public List<FBphone> findAllByPhone(String phone);
+
+
+
+
+
+    @Update("update user set phone=#{n_phone} where phone=#{phone}")
+    public Integer updatePhone(Phone phone);
 
 }

@@ -24,8 +24,8 @@ public class QueryVipController {
     @RequestMapping("/findmber")
     @ResponseBody
     @CrossOrigin
-    public List<Member> queryV1(){
-        return rechargeAmoutService.InFormation();
+    public Member queryV1(String phone){
+        return rechargeAmoutService.InFormation(phone);
     }
 
 

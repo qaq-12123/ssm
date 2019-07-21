@@ -8,7 +8,7 @@ import java.util.List;
 
 
 public interface RechargeAmoutService {
-    public List<Member> InFormation();
+    public Member InFormation(String phone);
     public List<User> findUser();
     public List<EandV> findAVE();
 }

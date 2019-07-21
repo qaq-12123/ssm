@@ -1,7 +1,9 @@
 package cn.kgc.service.impl;
 
 import cn.kgc.dao.VEdit;
+import cn.kgc.domain.FBphone;
 import cn.kgc.domain.Member;
+import cn.kgc.domain.Phone;
 import cn.kgc.domain.User;
 import cn.kgc.service.VEditService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,9 +32,8 @@ public class VEditServiceImpl implements VEditService {
      * @return  充值
      */
     @Override
-    public boolean balanceedit(Float balance, String username) {
-        System.out.println(balance);
-        if(vEdit.balanceedit(balance,username)!=0){
+    public boolean setPjmoney(User user) {
+        if(vEdit.update(user)!=0){
             return true;
         }
         return false;
@@ -53,6 +54,14 @@ public class VEditServiceImpl implements VEditService {
     }
 
     @Override
+    public boolean update(User user) {
+        if(vEdit.update(user)!=0){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
     public  List<Member> findAll() {
         return vEdit.findAll();
     }
@@ -60,6 +69,27 @@ public class VEditServiceImpl implements VEditService {
     @Override
     public List<User> findUser() {
         return vEdit.findUser();
+    }
+
+    @Override
+    public User findByphone(String phone) {
+        return vEdit.findByphone(phone);
+    }
+
+    @Override
+    public List<FBphone> findAllByPhone(String phone) {
+        return vEdit.findAllByPhone(phone);
+    }
+
+
+
+    @Override
+    public boolean setPhone(Phone phone) {
+        if(phone!=null){
+            vEdit.updatePhone(phone);
+            return  true;
+        }
+        return false;
     }
 
 }

@@ -1,8 +1,10 @@
 package cn.kgc.controller;
 
 import cn.kgc.domain.Member;
+import cn.kgc.domain.Phone;
 import cn.kgc.domain.User;
 import cn.kgc.service.VEditService;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -30,10 +32,9 @@ public class VEditController {
     @ResponseBody
     @RequestMapping("/editbalance")
     @CrossOrigin
-    public boolean updatemoney(Float balance, String username){
-
-        if(balance!=null&&username!=null){
-            return  vEditService.balanceedit(balance,username);
+    public boolean updatemoney(User user){
+        if(user.getPhone()!=null) {
+            return vEditService.setPjmoney(user);
         }
         return false;
     }
@@ -59,4 +60,24 @@ public class VEditController {
     public List<User> findUser(){
         return vEditService.findUser();
     }
+
+    @ResponseBody
+    @RequestMapping("/findByPhone")
+    public List findByPhone(String phone){
+        System.out.println(phone);
+        List list=new ArrayList();
+        list.add(vEditService.findByphone(phone));
+        list.add(vEditService.findAllByPhone(phone));
+        return list;
+    }
+
+    @ResponseBody
+    @RequestMapping("/setNewPhone")
+    public boolean setNewPhone(Phone phone){
+        if(phone!=null){
+            return  vEditService.setPhone(phone);
+        }
+        return  false;
+    }
+
 }

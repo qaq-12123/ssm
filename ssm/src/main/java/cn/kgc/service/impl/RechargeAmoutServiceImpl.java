@@ -16,8 +16,8 @@ public class RechargeAmoutServiceImpl implements RechargeAmoutService {
     @Autowired
     RechargeAmout rechargeAmout;
     @Override
-    public List<Member> InFormation() {
-        return rechargeAmout.InFormation();
+    public Member InFormation(String phone) {
+        return rechargeAmout.InFormation(phone);
     }
     @Override
     public List<User> findUser() {

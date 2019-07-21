@@ -4,6 +4,7 @@ import cn.kgc.utils.JuheDemo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 /**
@@ -15,9 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PhoneController {
 
     @RequestMapping("/phones")
-    public String phone(String phone){
-        String num = "121212";
-        phone = "17550062722";
+    public @ResponseBody
+    String phone(String phone){
+        String num = (int) ((Math.random() * 9 + 1) * 100000) + "";
+        System.out.println(phone);
         JuheDemo.getRequest2(phone,num);
         return num;
     }

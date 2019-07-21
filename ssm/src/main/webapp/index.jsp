@@ -69,6 +69,13 @@ ceshi
     <input type="text" name="statue">
     <input type="submit">
 </form>
+
+
+<form action="/edit/setNewPhone" method="post">
+    <input type="text" name="n_phone">
+    <input type="text" name="phone"/>
+    <input type="submit" value="提交"/>
+</form>
     <script >
         function ddd() {
             $.ajax({

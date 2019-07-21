@@ -34,8 +34,8 @@ public class VehicleController {
      * */
     @RequestMapping("/findByLicense")
     @ResponseBody
-    public  Vehicle findByLisence( String license) {
-
+    public Vehicle findByLisence( String license) {
+        System.out.println(license);
         return vehicleService.findByLicense(license);
     }
 

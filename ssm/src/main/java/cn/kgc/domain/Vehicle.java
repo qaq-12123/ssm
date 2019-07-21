@@ -14,7 +14,33 @@ public class Vehicle {
   private String img;
   private String owner;
   private String safetyPeril;
+  private String fdong;
+  private String zhuce;
+  private String fazheng;
 
+  public String getFdong() {
+    return fdong;
+  }
+
+  public void setFdong(String fdong) {
+    this.fdong = fdong;
+  }
+
+  public String getZhuce() {
+    return zhuce;
+  }
+
+  public void setZhuce(String zhuce) {
+    this.zhuce = zhuce;
+  }
+
+  public String getFazheng() {
+    return fazheng;
+  }
+
+  public void setFazheng(String fazheng) {
+    this.fazheng = fazheng;
+  }
 
   public Integer getId() {
     return id;

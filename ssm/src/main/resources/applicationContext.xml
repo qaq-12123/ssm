@@ -13,7 +13,7 @@ http://www.springframework.org/schema/aop
 http://www.springframework.org/schema/aop/spring-aop.xsd
 http://www.springframework.org/schema/tx
 http://www.springframework.org/schema/tx/spring-tx.xsd">
-
+    <context:property-placeholder location="classpath:database.properties"></context:property-placeholder>
     <!--开启注解扫描-->
     <context:component-scan base-package="cn.kgc">
         <!--扫描除了该类之外的注解-->
@@ -23,10 +23,10 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
     <!--spring整合Mybatis框架-->
     <!--配置连接池-->
     <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
-        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
-        <property name="jdbcUrl" value="jdbc:mysql://172.25.1.66/carrent"></property>
-        <property name="user" value="root"></property>
-        <property name="password" value="root"></property>
+        <property name="driverClass" value="${driver}"></property>
+        <property name="jdbcUrl" value="${url}"></property>
+        <property name="user" value="${user}"></property>
+        <property name="password" value="${password}"></property>
     </bean>
     <!--配置sqlfactory工厂-->
     <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
